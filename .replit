@@ -1,0 +1,8 @@
+modules = ["ruby-3.2"]
+run = "ruby script.rb"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "ruby script.rb"]
